@@ -1,0 +1,75 @@
+body{
+    background-image:url(https://img.freepik.com/free-photo/3d-abstract-space-sky-with-stars-nebula_1048-8320.jpg);
+    background-size:cover;
+    width:initial 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.glitch{
+    background-image: url(https://images.pexels.com/videos/4990232/pexels-photo-4990232.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+div{
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+}
+h1{
+    color:beige;
+    background-color: black;
+    text-align: center;
+    height:fit-content;
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    align-content: center;
+}
+h2{
+    color:beige;
+    background-color: black;
+    text-align: center;
+    height:fit-content;
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+    align-content: center;
+}
+p{
+    color:aliceblue;
+    width: fit-content;
+    text-align: left;
+}
+strong{
+    color: mediumvioletred;
+    text-shadow: 2px 1px rgb(12, 81, 46);
+    font-size: 20px;
+}
+.error{
+    margin: auto;
+    margin-top: 5px;
+}
+.error p{
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    color: rgb(244, 105, 105);
+    border-radius: 4px;
+    padding: 10px;
+    font-size: large;
+    text-align: left;
+}
+a{
+    color: pink;
+}
+nav{
+    position: fixed;
+    bottom:10px;
+    background-color: midnightblue;
+    width: 200px;
+    text-align: left;
+    border: 10px groove skyblue;
+}
+li{
+    list-style-type: square;
+    color: aliceblue;
+}
