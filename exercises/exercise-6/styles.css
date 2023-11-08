@@ -1,0 +1,43 @@
+
+
+p{    
+    background-color: black;
+    text-align: left;
+}
+
+.carousel-item {
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.carousel slide{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel-container{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    color: black;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(black), var(--bs-text-opacity) !important;
+  }
