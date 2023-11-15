@@ -1,0 +1,610 @@
+html {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #9CCCF9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+.header {
+    width: 100%;
+    min-height: 9vw;
+    max-height: 21vw;
+    background-color: #788EC6;
+    display: flex;
+    color: aliceblue;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+.logo {
+    min-width: 8vw;
+    max-width: 19vw;
+    margin: auto;
+    padding: 1vw;
+    justify-content: center;
+}
+
+.site-title {
+    width: 100vw;
+    padding-left: 2%;
+    margin: auto;
+    font-size: 200%;
+    line-height: 128%;
+
+}
+
+.header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+nav {
+    background-color: #2E2345;
+    min-height: 7vw;
+    max-height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.button1 {
+    background-color: #C13333;
+    border-radius: 30px;
+    min-width: 18vw;
+    max-width: 20vw;
+    min-height: 4vw;
+    max-height: 7vw;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+}
+
+
+
+.deco-holder {
+    display: flex;
+    margin: auto;
+    margin-bottom: 0%;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+
+
+.deco {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Anglo-American_card_suits.svg);
+    width: 20%;
+    height: auto;
+    background-size: 90%;
+    background-position: top;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    opacity: 10%;
+    overflow: hidden;
+}
+
+.headerbox {
+    margin-top: 1%;
+
+    width: 100vw;
+    border-top: 5px dashed #788EC6;
+    border-bottom: 5px dashed #788EC6;
+}
+
+#main-head {
+    align-items: center;
+    font-family: 'Brush Script MT', Geneva, Verdana, sans-serif;
+    margin: auto;
+    font-size: 335%;
+    width: 100%;
+    background-color: #C6E0F8;
+    padding: 1%;
+    text-align: center;
+}
+
+
+/* Home Page */
+
+.main-body {
+    height: 100%;
+
+}
+
+.splash {
+    margin: auto;
+    width: 100%;
+}
+
+
+
+.main-text {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+    width: 100%;
+}
+
+#main-text-1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0%;
+    margin: 1% auto;
+    margin-top: 4%;
+}
+
+#main-text-1 h3 {
+    font-size: 226%;
+    margin: 0;
+    width: 100%;
+    font-weight: normal;
+
+}
+
+#main-text-2 {
+    font-size: 105%;
+    text-align: justify;
+    text-align-last: left;
+    max-height: 100%;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    width: 80%;
+
+}
+
+
+.main-text::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Bio Page */
+
+#bio-head {
+    color: #C13333;
+    align-items: center;
+    margin: auto;
+    font-size: 400%;
+    width: 100%;
+    height: 20%;
+    background-color: #C6E0F8;
+    padding: 1%;
+    text-align: center;
+}
+
+.bio-text {
+    font-size: 100%;
+    text-align: justify;
+    text-align-last: left;
+    width: 100%;
+    margin: 1%;
+    word-wrap: normal;
+}
+
+.bio-text::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#bio-pic {
+    width: 50%;
+    height: auto;
+    margin: 0%;
+    margin-right: 3%;
+    float: left;
+}
+
+/* Review Page */
+
+.review-content {
+    display: block;
+}
+
+#review-head {
+    color: #C13333;
+    align-items: center;
+    margin: auto;
+    font-size: 400%;
+    width: 100%;
+    height: 20%;
+    background-color: #C6E0F8;
+    padding: 1%;
+    text-align: center;
+}
+
+.review-case {
+    background-color: #C6E0F8;
+    border: 5px double #2E2345;
+}
+
+.review-title {
+    font-weight: bold;
+    margin: 2% auto !important;
+    padding: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.review {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    text-align-last: left;
+}
+
+
+.deco2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/11/Anglo-American_card_suits.svg);
+    width: 100%;
+    height: 60%;
+    background-size: 10%;
+    background-position: center;
+    background-repeat: repeat-x;
+    margin: 1% 0;
+    padding: 0;
+    opacity: 50%;
+    overflow: hidden;
+}
+
+/* ETC */
+
+a {
+    color: #9CCCF9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2E2345;
+}
+
+a .button1:hover {
+    color: #C13333;
+}
+
+.button1:hover {
+    background-color: aliceblue;
+}
+
+.yah {
+    /* <- this means 'you are here') */
+    background-color: #2E2345;
+    border: 2px solid #C13333;
+}
+
+footer {
+    background-color: #788EC6;
+    max-height: 100% !important;
+    margin-bottom: 0% !important;
+    margin-top: 10px;
+    padding: 0% 2%;
+    font-size: 80%;
+    display: flex;
+
+    .footer-normal {
+        width: 100%;
+    }
+
+    .footer-side {
+        float: right;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .header {
+        max-height: 20vw;
+        min-height: 8vw;
+        min-height: min-content;
+        max-width: 100vw;
+    }
+
+    .logo {
+        width: 17.5vw;
+        margin: auto auto;
+        padding: 1vw;
+        justify-content: center;
+
+    }
+
+    .site-title {
+        font-size: 300%;
+        width: 100%;
+        padding-left: 0;
+        margin: auto -20%;
+        float: left;
+    }
+
+    nav {
+        min-height: 3.5vw;
+        max-height: 4vw;
+    }
+
+    .button1 {
+        max-width: 1vw;
+        min-height: 3vw;
+        max-height: 3vw;
+        padding: 1%;
+        justify-content: center;
+        font-size: 150%;
+        display: grid;
+        position: relative;
+        top: -50%;
+    }
+
+    .deco-holder {
+        width: 100%;
+        height: 80%;
+    }
+
+    .deco {
+        width: 25%;
+        background-size: 15%;
+        background-position: center;
+        background-repeat: repeat;
+    }
+
+    .headerbox {
+        width: 100vw;
+        border-top: 5px dashed #788EC6;
+        border-bottom: 5px dashed #788EC6;
+        margin-bottom: 0%;
+    }
+
+    #main-head {
+        font-size: 500%;
+    }
+
+    .main-text {
+        width: 80%;
+    }
+
+    #main-text-1 h3 {
+        font-size: 300%;
+        width: 100%;
+    }
+
+    #main-text-2 {
+        font-size: 131%;
+        width: 90%;
+    }
+
+    .bio-text {
+        font-size: 100%;
+        text-align: justify;
+        text-align-last: left;
+        width: 78%;
+        padding: 1% 1% 0;
+        word-wrap: normal;
+    }
+
+    #bio-pic {
+        width: 50%;
+        height: auto;
+        margin: 0 3% 0 0;
+        padding: 0;
+        float: left;
+    }
+
+    .review-case {
+        width: 60%;
+        margin: auto;
+    }
+
+    .deco2 {
+        width: 100%;
+        height: 60%;
+        background-size: 5%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:1012px) {
+    .header {
+        max-height: 15vw;
+        min-height: 8vw;
+        min-height: min-content;
+        max-width: 100vw;
+    }
+
+    .logo {
+        max-width: 13vw;
+        max-height: 13vw;
+        margin-left: 50%;
+    }
+
+    .site-title {
+        font-size: 300%;
+        width: 100%;
+        padding-left: 0;
+        margin: auto 0%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width:1146px) {
+    .header {
+        max-height: 12vw;
+        min-height: 8vw;
+        min-height: min-content;
+        max-width: 100vw;
+    }
+
+    .logo {
+        max-width: 11vw;
+        max-height: 11vw;
+        margin-left: 50%;
+    }
+
+    .headerbox {
+        width: 100vw;
+        border-top: 5px dashed #788EC6;
+        border-bottom: 5px dashed #788EC6;
+        margin-bottom: 0%;
+    }
+
+    .deco-holder {
+        width: 100%;
+        height: 80%;
+    }
+
+    .deco {
+        margin: 0 auto;
+        background-position: left;
+    }
+
+    #main-head {
+        font-size: 500%;
+    }
+
+    .main-text {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #main-text-1 h3 {
+        font-size: 370%;
+    }
+
+    #main-text-2 {
+        width: 75%;
+    }
+
+    .review-case {
+        width: 40%;
+        margin: auto;
+    }
+
+    .deco2 {
+        background-size: 3%;
+        height: 80%;
+    }
+
+    .deco3 {
+        opacity: 30%;
+    }
+
+}
