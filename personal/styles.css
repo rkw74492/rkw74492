@@ -4,10 +4,10 @@ body{
 }
 header{
     display: flex;
-    img{
+}
+.logo{
         float: left;
     }
-    h1{
-        float:right;
+.maintitle{
+        float: right;
     }
-}
