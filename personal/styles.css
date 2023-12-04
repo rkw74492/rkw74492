@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(98, 44, 98);
+    color: gold;
+    font-family:Arial;
+}
+header{
+    display: flex;
+}
+.logo{
+        float: left;
+    }
+.headtext{
+        float: right;
+    }
