@@ -5,26 +5,49 @@
     <title>Welcome to Brews & Bonds</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script> 
 </head>
 
 <body>
     <div class="header">
-            <img class="logo" src="images/logo.png" alt="logo">
-            <div class="site-title">
-                <a href="index.html">
-                    <h1>Brews & Bonds</h1>
-                </a>
-            </div>
+        <div class="site-title">
+            <a href="index.html" class="site-title-link">
+                <h1 class="site-title-text">Brews & Bonds</h1>
+            </a>
+        </div>
     </div>
-    <nav class="topnav">
+    <nav class="navigation">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a class="navbar"> . </a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="about.html">About</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="menu.html">Menu</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+            </a>
+        </div>
     </nav>
-
+    <img class="index-top" src="images/index_top.jpg" alt="An image of people through the front window of a cafe."/>
+    <h1 class="page-title">Welcome to Brews & Bonds</h1>
+    <p class="index-text">We are a small Harrisburg-area coffee shop dedicated to bringing high quality coffee to coffee lovers.</p>
+    <h2 class="where-title">Where can you find us?</h2>
+    <p style="text-align: center;">
+    <iframe style="width: 60vw;height: 60vw;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.3927741135612!2d-76.80263371795321!3d40.31143972098742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8b8ed8bb7cf45%3A0x8db5e89b6db0df93!2sJoe%20Muggs%20Coffee!5e0!3m2!1sen!2sus!4v1702474909244!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
     <footer>
         <div class="col-8">
             <p> </p>
             <div class="footer-normal">
-                <p>Copyright © 2023 Brews & Bonds</p>
+                <p class="footer-text">Copyright © 2023 Brews & Bonds</p>
             </div>
         </div>
     </footer>

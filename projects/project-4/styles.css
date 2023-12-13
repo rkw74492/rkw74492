@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    background-color: #E5CABA;
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Header */
+
+.header {
+    background-image: url(images/latte.jpg);
+    background-position: center;
+    min-width: 100vw;
+    min-height: 30vw;
+    max-height: 30vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.site-title {
+    text-align: center;
+    right: 0;
+    position: absolute;
+    font-size: 150%;
+    width: 50%;
+    height: 30vw;
+    margin: auto;
+    font-family: 'Courgette', cursive;
+    box-sizing: border-box;
+    max-height: 12vw;
+}
+
+.site-title-link {
+    color: #E5CABA;
+}
+
+.site-title-text {
+    margin: auto;
+    height: 3vw;
+}
+
+/*Footer*/
+
+.footer-normal {
+    background-color: #582C2C;
+    color: #E5CABA;
+    min-height: 4vw;
+    max-height: 6vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    text-align: center;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+
+/* Nav */
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #582C2C;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    min-width: 100%;
+    height: auto;
+
+}
+
+.navbar {
+    color: #582C2C !important;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+    color: #E5CABA;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #582C2C;
+    color: white;
+}
+
+/* Universal settings */
+.page-title {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 7vw;
+    margin: 2vw 0%;
+}
+
+
+/* Index */
+.index-top {
+    min-height: 15vw;
+    max-height: auto;
+    max-width: 100%;
+}
+
+.index-text {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.where-title {
+    text-align: center;
+}
+
+/* About */
+
+.about-text {
+    text-align: justify;
+    text-align-last: left;
+    width: 80%;
+    margin: 3vw auto;
+}
+
+/* Schedule */
+
+.weekday {
+    background-color: #D7A88E;
+    border: 4px dotted #582C2C;
+    border-radius: 3vw;
+    max-height: 60vw;
+    width: 70vw;
+    margin: 5vw auto;
+    padding: 2vw;
+    align-items: center;
+}
+
+.weekday h2 {
+    background-color: #582C2C;
+    color: #D7A88E;
+    width: 100%;
+    text-align: center;
+    max-height: 8vw;
+    margin: auto;
+}
+.schedule-note{
+    margin: auto;
+    width: 90%;
+}
+
+/* Menu */
+.menu-category{
+    font-size: 5vw;
+    background-color: #582C2C;
+    color:#E5CABA;
+    width: 100%;
+    min-height: 2vw;
+    text-align: center;
+    font-family: 'Lucida Calligraphy', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    margin-bottom: 2vw;
+}
+strong{
+    background-color: #582C2C;
+    color: #E5CABA;
+    border-radius: 40%;
+    padding: 1vw;
+}
+
+
+/* Wider Screens */
+
+@media only screen and (min-width: 1272px) {
+    .site-title {
+        font-size: 300%;
+        margin: auto;
+    }
+
+    .header {
+        min-width: 100vw;
+        height: 11vw;
+    }
+
+    .about-text {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1098px) {
+    .site-title {
+        font-size: 225%;
+        margin: auto 0%;
+        height: 16vw;
+    }
+
+    .header {
+        min-width: 100vw;
+        min-height: 16vw;
+        max-height: 16vw;
+    }
+
+    .about-text {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .header {
+        min-height: 19vw;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+    }
+
+    .site-title {
+        float: right;
+        text-align: center;
+        font-size: 225%;
+        margin: auto;
+        padding: 0%;
+        width: 60%;
+
+    }
+
+    .weekday{
+        width: 40%;
+        margin: 1vw auto;
+    }
+
+    .about-text {
+        width: 70%;
+    }
+
+    .schedule-note{
+        max-width: 50%;
+    }
+
+
+
+}
